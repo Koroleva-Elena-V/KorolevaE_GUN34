@@ -3,12 +3,12 @@
     "maps": [
         {
             "name": "Tank",
-            "id": "59d7f86a-2cb8-4a57-aca6-d511baf7df38",
+            "id": "dcae08d9-67ef-4eee-a1a9-ede0efa9a7f2",
             "actions": [
                 {
                     "name": "Handbreak",
                     "type": "Button",
-                    "id": "923e1133-2fa1-4070-8a37-719abef9d289",
+                    "id": "032edcbf-cfd7-4384-b18d-19b4601632a9",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -17,7 +17,7 @@
                 {
                     "name": "Movement",
                     "type": "Value",
-                    "id": "7162d530-a928-4c85-a66e-cec45d23ae16",
+                    "id": "1f130cbb-384c-451e-8fe0-6abd4b391854",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -27,7 +27,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "cf2f81a7-b0e9-4c5c-b57e-7726f173a59f",
+                    "id": "01496d1e-9db6-4f32-8e01-dd4e4ca781da",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
@@ -38,7 +38,7 @@
                 },
                 {
                     "name": "WASD",
-                    "id": "7e8bc908-6e66-4e14-b680-7262bf271a7f",
+                    "id": "875c32b4-d206-4eb8-b263-86ed7f1ce3c6",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -49,7 +49,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "49497b11-7eeb-4e9b-b9ed-a8377b082cd6",
+                    "id": "27942065-d080-4508-81d2-edff45bfc2d2",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -60,7 +60,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "74710c7f-af25-443c-a467-ce80a00d1525",
+                    "id": "f5040f9c-ad3f-478f-a6f8-76ce21681334",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
@@ -71,7 +71,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "2e08fbf7-3940-45ad-b68e-043fb62a1a88",
+                    "id": "df6bb892-78a9-4410-9ba9-1884dccbc4f7",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -82,7 +82,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "92afdd76-ad29-4a65-bcee-6c5907b6ab87",
+                    "id": "1fbc9877-92c8-457d-baa0-5af9fbd2aa05",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -95,12 +95,12 @@
         },
         {
             "name": "Turret",
-            "id": "fafeb1f3-5ebb-4a91-9aee-8204003375af",
+            "id": "87ab63af-ad4f-49ba-afe8-c33caf34600a",
             "actions": [
                 {
                     "name": "Fire",
                     "type": "Button",
-                    "id": "28a6b462-0dea-4111-9341-f3d7571cba03",
+                    "id": "4debb9c3-59d8-4934-a427-16e7a3f7115d",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -109,7 +109,7 @@
                 {
                     "name": "Focus",
                     "type": "Value",
-                    "id": "a5d517a7-c7af-4df4-a06d-b23c56d7b4de",
+                    "id": "3a1b1bde-9858-435f-a1f9-f5670020e803",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -119,7 +119,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "9e274113-6fb2-4272-b7fd-796bc397e268",
+                    "id": "51c55961-f0d8-4831-abd6-8f3447909631",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
@@ -130,7 +130,18 @@
                 },
                 {
                     "name": "",
-                    "id": "bd423978-0b29-45c7-b680-6d4b5efaf18a",
+                    "id": "25f5ee0e-81d9-497e-9dad-9c88de2034b9",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f6eb0717-a3fc-4079-8e96-8be21a945574",
                     "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",

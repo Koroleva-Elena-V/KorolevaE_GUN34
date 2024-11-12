@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 50c78bc9ab8645c4c8a684ba6e29e5dd
+  productGUID: 3422d0a738414d244837390606d68046
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Netology_Tank
+  productName: Tank01
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -161,7 +161,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.DefaultCompany.Netology-Tank
+    Android: com.DefaultCompany.Tank01
+    Standalone: com.DefaultCompany.Tank01
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -770,14 +771,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Netology_Tank
+  metroPackageName: Tank01
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Netology_Tank
+  metroApplicationDescription: Tank01
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -847,10 +848,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: f6059e99-765d-44bc-ae60-cec5b4c02620
+  cloudProjectId: ad0ff593-2959-43ec-8079-c1bc7711426b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Netology_Tank
+  projectName: Tank01
   organizationId: selenakv09
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
