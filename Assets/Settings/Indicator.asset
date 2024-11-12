@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Settings>k__BackingField:
   - Mult: 1
-    Text: WoW!
+    Text: 
     Clip: {fileID: 0}
   - Mult: 2
     Text: Ohhh!
@@ -26,8 +26,8 @@ MonoBehaviour:
     Text: Greate!
     Clip: {fileID: 0}
   - Mult: 5
-    Text: CARNAGE!!!
+    Text: Wow!!!
     Clip: {fileID: 0}
   - Mult: 6
-    Text: 
+    Text: CARNAGE!!!
     Clip: {fileID: 0}
